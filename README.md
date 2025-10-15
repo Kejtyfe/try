@@ -15,7 +15,11 @@ It helps with almost all our mind's desires under the right "commander".
 Nevertheless, for us, it is great for repetitive commands and combining tasks into workflows.
 
 Bash is a very popular and friendly shell.
-I work on Windows, so I work with Windows Subsystem for Linux (WSL) - Ubuntu.
+I work on Windows, so I work with Windows Subsystem for Linux (WSL) - [Ubuntu](https://ubuntu.com/desktop/wsl).
+
 Ubuntu runs the real Linux environment on Windows. It is possible to download it from the Windows Store.
+
+Or you can download it directly with the SHELL
+
 
 ** next time (15/10/2025) -> find out if it is possible to give a link for the website or explain how to download it from the shell on Windows.
