@@ -19,7 +19,23 @@ I work on Windows, so I work with Windows Subsystem for Linux (WSL) - [Ubuntu](h
 
 Ubuntu runs the real Linux environment on Windows. It is possible to download it from the Windows Store.
 
-Or you can download it directly with the SHELL
+Or you can download it directly with the PowerSHELL (for Windows)
+Run the PowerSHELL as an administrator (right click and then select run as administrator)
+
+```bash
+wsl --install # we need to install the WSL system
+curl.exe -L -o Ubuntu.appx https://aka.ms/wslubuntu2204
+```
+
+We will create a folder for Ubuntu
+```bash
+Rename-Item Ubuntu.appx Ubuntu.zip
+Expand-Archive Ubuntu.zip Ubuntu
+```
+Now  we install Ubuntu and register it with WSL - create a username and a password
+```bash
+cd Ubuntu
+.\ubuntu2204.exe
+```
 
 
-** next time (15/10/2025) -> find out if it is possible to give a link for the website or explain how to download it from the shell on Windows.
