@@ -38,4 +38,7 @@ cd Ubuntu
 .\ubuntu2204.exe
 ```
 
+If you want to know some basic commands in BASH, please follow:
+[Basic_BASH](bash_basics.md) ❤️
+
 
