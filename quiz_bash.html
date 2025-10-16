@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bash Basics Quiz</title>
+<style>
+  body{font-family:system-ui,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;max-width:800px;margin:40px auto;padding:0 16px;line-height:1.5}
+  .q{margin:18px 0;padding:14px;border:1px solid #ddd;border-radius:10px}
+  button{padding:10px 16px;border:0;border-radius:10px;cursor:pointer}
+  .result{font-weight:600;margin-top:12px}
+</style>
+
+<h1>🐚 Bash Basics — Interactive Quiz</h1>
+<form id="quiz">
+  <div class="q">
+    <p><strong>1)</strong> Show your current directory:</p>
+    <label><input type="radio" name="q1" value="pwd"> pwd</label><br>
+    <label><input type="radio" name="q1" value="ls"> ls</label><br>
+    <label><input type="radio" name="q1" value="cd"> cd</label>
+  </div>
+
+  <div class="q">
+    <p><strong>2)</strong> List files with human-readable sizes:</p>
+    <label><input type="radio" name="q2" value="ls -lh"> ls -lh</label><br>
+    <label><input type="radio" name="q2" value="du -a"> du -a</label><br>
+    <label><input type="radio" name="q2" value="cat -n"> cat -n</label>
+  </div>
+
+  <div class="q">
+    <p><strong>3)</strong> First 4 lines of <code>.fastq.gz</code>:</p>
+    <label><input type="radio" name="q3" value="head"> head -n 4 file.fastq.gz</label><br>
+    <label><input type="radio" name="q3" value="zcat+head"> zcat file.fastq.gz | head -n 4</label><br>
+    <label><input type="radio" name="q3" value="less"> less file.fastq.gz</label>
+  </div>
+
+  <button type="button" onclick="grade()">Check answers</button>
+  <div id="out" class="result"></div>
+</form>
+
+<script>
+const correct = { q1: 'pwd', q2: 'ls -lh', q3: 'zcat+head' };
+function grade(){
+  let score = 0, total = Object.keys(correct).length;
+  for (const k of Object.keys(correct)) {
+    const picked = document.querySelector(`input[name="${k}"]:checked`);
+    if (picked && picked.value === correct[k]) score++;
+  }
+  const pct = Math.round(score/total*100);
+  document.getElementById('out').textContent = `Score: ${score}/${total} (${pct}%)`;
+}
+</script>
