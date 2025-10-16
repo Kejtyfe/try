@@ -41,4 +41,6 @@ cd Ubuntu
 If you want to know some basic commands in BASH, please follow:
 [Basic_BASH](bash_basics.md) ❤️
 
+**16/10/2025 - some commands in BASH
+
 
