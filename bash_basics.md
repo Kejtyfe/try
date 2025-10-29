@@ -14,6 +14,11 @@ The 💲 is followed by a cursor -> you can move your cursor at the beginning of
 CTRL+A or at the End -> CTRL+E
 
 
+<p align="center">
+  <img src="terminal1resized.gif" alt="Terminal demo" width="600"/>
+</p>
+
+
 # Bash Basics — Mini Quiz
 
 
