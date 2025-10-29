@@ -15,8 +15,11 @@ CTRL+A or at the End -> CTRL+E
 
 
 <p align="center">
-  <img src="terminal1resized.gif?v=7" alt="Terminal demo" width="800"/>
+  <video src="terminal1fixed.mp4" controls width="800">
+    Your browser does not support the video tag.
+  </video>
 </p>
+
 
 
 
