@@ -19,9 +19,6 @@ CTRL+A or at the End -> CTRL+E
 </p>
 
 
-
-
-
 # Bash Basics — Mini Quiz
 
 
