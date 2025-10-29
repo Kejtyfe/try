@@ -15,8 +15,9 @@ CTRL+A or at the End -> CTRL+E
 
 
 <p align="center">
-  <img src="terminal1resized.gif?v=3" alt="Terminal demo" width="800"/>
+  <img src="terminal1resized.gif?v=7" alt="Terminal demo" width="800"/>
 </p>
+
 
 
 # Bash Basics — Mini Quiz
