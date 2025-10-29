@@ -15,7 +15,7 @@ CTRL+A or at the End -> CTRL+E
 
 
 <p align="center">
-  <img src="terminal1fixed.gif?v=9" alt="Terminal demo" width="600"/>
+  <img src="terminal1fixed.gif?v=9" alt="Terminal demo" width="300"/>
 </p>
 
 
